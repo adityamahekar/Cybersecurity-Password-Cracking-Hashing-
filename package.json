@@ -1,0 +1,14 @@
+{
+  "name": "gpu-hash-cracker",
+  "private": true,
+  "version": "1.0.0",
+  "description": "GPU-Accelerated Password Hashing and Cracking Simulation Using CUDA",
+  "workspaces": ["client", "server"],
+  "scripts": {
+    "install:all": "npm install",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "start": "npm --prefix server start"
+  }
+}
