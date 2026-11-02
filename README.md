@@ -491,7 +491,10 @@ stop the process holding the port.
 project root; the workspace install must run from the root, not from `client/`.
 
 ---
+CPU — Central Processing Unit. The general-purpose processor that runs the operating system and your programs.
 
+GPU — Graphics Processing Unit. Originally built to render pixels, now used for any large parallel computation.
+---
 ## Licence and academic use
 
 Built as a coursework demonstration. Run it only against hashes you generated
